@@ -1,11 +1,12 @@
 @import url("https://use.typekit.net/out0gdn.css");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=auto');
 
 :host-context(.platform-mac) .monospace,
 :host-context(.platform-mac) .source-code,
 .platform-mac .monospace,
 .platform-mac .source-code {
     font-size: 14px !important;
-    font-family: Iosevka, Menlo, monospace, monospace;
+    font-family: 'Jetbrains Mono', Menlo, monospace, monospace !important;
 }
 
 .platform-mac {
@@ -18,17 +19,17 @@
 .platform-windows .monospace,
 .platform-windows .source-code {
     font-size: 14px !important;
-    font-family: Iosevka, Consolas, Lucida Console, Courier New, monospace, monospace;
+    font-family: 'Jetbrains Mono', Menlo, monospace, monospace !important;
 }
 
 .monospace,
 .source-code {
     font-size: 14px !important;
-    font-family: Iosevka, Consolas, monospace, monospace !important;
+    font-family: 'Jetbrains Mono', Menlo, monospace, monospace !important;
 }
 
 ::shadow .monospace,
 ::shadow .source-code {
     font-size: 14px !important;
-    font-family: Iosevka, Consolas, monospace, monospace !important;
+    font-family: 'Jetbrains Mono', Menlo, monospace, monospace !important;
 }
